@@ -94,8 +94,7 @@ footer {
     width: 62px;    
 }
 
-#news {
-    padding: 40px 10px;
+#news { 
     background-color: var(--color-white);
 }
 
@@ -105,7 +104,7 @@ footer {
     font-size: 24px;
     font-weight: 700;
     font-style: normal;
-    padding: 40px 60px 60px 8px;
+    margin: 40px 60px 8px 60px;
 }
 
 #news h2 {
@@ -113,7 +112,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     color: var(--color-green);
-    padding: 16px 13px 13px 3px;
+    margin: 16px 13px 13px 3px;
 }
 
 #news p {
@@ -127,7 +126,14 @@ footer {
     font-style: normal;
     font-weight: 700;
     color: var(--text-gray);
+    margin: 3px;
 }
+
+hr {
+    width: 100%;
+    border: 1px solid var(--color-green);
+    background-color: var(--color-green);
+  }
 
 .data {    
     font-size: 10px;
@@ -142,6 +148,38 @@ footer {
 .card-comment {
     background: var(--color-gray);
     border-radius: 8px;
-    margin: 20px 0;
-    padding: 20px;    
+    padding: 16px 12px;   
+}
+
+.card-comment a {
+    font-size: 14px;
+    color: var(--color-pink);
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 10px;
+    color: var(--text-gray);
+    font-weight: 400;
+}
+
+.button {
+    background: var(--color-pink);
+    width: 244px;
+    height: 67px;
+    left: 38px;
+    top: 1216px;
+    border-radius: 8px;
+    margin: 28px 38px 40px 38px;
+}
+.button a {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    height: 27px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
